@@ -22,7 +22,7 @@ print(f'{time} 기준 {station}의 미세먼지 농도는 {dust} 입니다.')
 # dust 변수에 들어 있는 값을 기준으로 상태 정보를 출력해보세요.
 if dust > 150:
     print('매우나쁨')
-elif 150 >= dust > 80:
+elif dust > 80:
     print('나쁨')
 elif dust > 30:
     print('보통')
